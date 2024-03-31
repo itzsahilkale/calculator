@@ -1,6 +1,3 @@
-*{
-    text-align: right;
-}
 
 #calculator{
 
@@ -16,12 +13,14 @@
     font-size: 40px;
     border: 2px solid black;
     background-color: blanchedalmond;
+    text-align: right;
 }
 .buttons{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    
 
 }
 .button{
@@ -32,4 +31,5 @@
     background-color: blanchedalmond;
     font-weight: 100;
     font-size: 29px;
+    text-align: center;
 }
